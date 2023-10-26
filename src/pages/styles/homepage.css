@@ -21,6 +21,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	margin-top: 80px;
 }
 
 .homepage-title {
@@ -36,19 +37,11 @@
 	align-items: center;
 }
 
-.homepage-image-container {
-	width: 370px;
-	height: 370px;
-}
-
-.homepage-image-wrapper {
-	overflow: hidden;
-	border-radius: 10%;
-	transform: rotate(3deg);
-}
-
 .homepage-image-wrapper img {
-	width: 100%;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
 }
 
 .homepage-socials {
@@ -56,6 +49,19 @@
 	justify-content: left;
 	align-items: center;
 	padding-top: 30px;
+}
+
+.homepage-socials ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	list-style: none;
+	padding: 0;
+}
+
+.homepage-socials ul li img {
+	height: 3rem;
+	transition: all 0.3s ease-in-out;
 }
 
 .homepage-social-icon {

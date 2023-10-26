@@ -1,82 +1,63 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Reactfolio Belén Corvalán",
+		name: "Belén Corvalán",
+		email: "bcorvalan.amil@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/mbcorvalan",
+		linkedin: "https://www.linkedin.com/in/mbcorvalan/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Front-end web developer and graphic designer",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I'm a Front-End Developer with 5 years of experience. I'm passionate about programming, always eager to learn, and love collaborating with a team. Let's code together!",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Belén Corvalán. I live in Buenos Aires, where I design the future.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
 
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
-
 	projects: [
 		{
-			title: "Project 1",
+			title: "ZOOM - FrontEnd Developer",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Zoom.us is a popular online video conferencing platform that allows users to connect with others remotely through video, voice, and chat.",
 			linkText: "View Project",
-			link: "https://github.com",
+			stack: "Google Analytics - GA4",
+			link: "https://zoom.us/",
 		},
 
 		{
-			title: "Project 2",
+			title: "KHOV - FrontEnd Developer",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"K. Hovnanian Homes is a homebuilding company that provides a variety of home designs and communities across the United States.",
 			linkText: "View Project",
-			link: "https://github.com",
+			stack: "Sitefinity - jquery - SASS",
+			link: "https://www.khov.com/",
 		},
 
 		{
-			title: "Project 3",
+			title: "Jefferson Health - FrontEnd Developer",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"The official website of Jefferson Health, a prominent healthcare system providing medical services in the Philadelphia region and beyond.",
 			linkText: "View Project",
-			link: "https://github.com",
+			stack: "AEM - React - SASS",
+			link: "https://www.jeffersonhealth.org/home",
 		},
 
 		{
-			title: "Project 4",
+			title: "Beautyfull - Wordpress Developer",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				" an online distributor specializing in beauty products. They offer a wide range of cosmetic and skincare products from various brands, catering to the diverse beauty needs of their customers.",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			stack: "Wordpress - Elementor - SASS",
+			link: "https://beautyfull.com.ar/",
 		},
 	],
 };
